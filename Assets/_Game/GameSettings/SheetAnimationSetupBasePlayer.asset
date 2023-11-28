@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82de2d92b88c45d196fc3958c011b294, type: 3}
+  m_Name: SheetAnimationSetupBasePlayer
+  m_EditorClassIdentifier: 
+  animationsData:
+  - nameAnimation: Base
+    sheetAnimations:
+    - sprites:
+      - {fileID: -2107949783, guid: ec7c9562f16e43846bc519c49e844ff3, type: 3}
+      - {fileID: -427436788, guid: ec7c9562f16e43846bc519c49e844ff3, type: 3}
+      - {fileID: 924241179, guid: ec7c9562f16e43846bc519c49e844ff3, type: 3}
+      - {fileID: -119414119, guid: ec7c9562f16e43846bc519c49e844ff3, type: 3}
+      - {fileID: 1724296700, guid: ec7c9562f16e43846bc519c49e844ff3, type: 3}
+      - {fileID: -909709124, guid: ec7c9562f16e43846bc519c49e844ff3, type: 3}
+      - {fileID: -1142932854, guid: ec7c9562f16e43846bc519c49e844ff3, type: 3}
+      - {fileID: -2096998029, guid: ec7c9562f16e43846bc519c49e844ff3, type: 3}
+      - {fileID: -171335404, guid: ec7c9562f16e43846bc519c49e844ff3, type: 3}
+      - {fileID: 1082254861, guid: ec7c9562f16e43846bc519c49e844ff3, type: 3}
+      - {fileID: 1934540182, guid: ec7c9562f16e43846bc519c49e844ff3, type: 3}
+      - {fileID: -1169512657, guid: ec7c9562f16e43846bc519c49e844ff3, type: 3}
+      - {fileID: 771553856, guid: ec7c9562f16e43846bc519c49e844ff3, type: 3}
+      - {fileID: -436022952, guid: ec7c9562f16e43846bc519c49e844ff3, type: 3}
+      - {fileID: -187147200, guid: ec7c9562f16e43846bc519c49e844ff3, type: 3}
+      - {fileID: 1587701870, guid: ec7c9562f16e43846bc519c49e844ff3, type: 3}
+      - {fileID: -2073411702, guid: ec7c9562f16e43846bc519c49e844ff3, type: 3}
+      - {fileID: 1775660212, guid: ec7c9562f16e43846bc519c49e844ff3, type: 3}
+      - {fileID: 1521539186, guid: ec7c9562f16e43846bc519c49e844ff3, type: 3}
+      - {fileID: 1385891860, guid: ec7c9562f16e43846bc519c49e844ff3, type: 3}
+      - {fileID: 736572992, guid: ec7c9562f16e43846bc519c49e844ff3, type: 3}
+      - {fileID: 1505048604, guid: ec7c9562f16e43846bc519c49e844ff3, type: 3}
+      - {fileID: 1770929046, guid: ec7c9562f16e43846bc519c49e844ff3, type: 3}
+      - {fileID: -283078146, guid: ec7c9562f16e43846bc519c49e844ff3, type: 3}

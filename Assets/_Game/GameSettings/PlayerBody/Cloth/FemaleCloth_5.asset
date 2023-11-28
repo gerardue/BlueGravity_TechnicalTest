@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc1742493bbd4a7eaa5f7670fbaa837b, type: 3}
+  m_Name: FemaleCloth_5
+  m_EditorClassIdentifier: 
+  id: 5
+  animations:
+  - playerState: 0
+    animations:
+    - {fileID: 7400000, guid: ab2236c15878aac49bd3f34fe1144c53, type: 2}
+    - {fileID: 7400000, guid: d8233ade8d5187345bb2f797c5490ef7, type: 2}
+    - {fileID: 7400000, guid: ad55f5724d58e4447a8f454c79881f28, type: 2}
+    - {fileID: 7400000, guid: 05961220680571a4385f705c576d8d00, type: 2}
+    - {fileID: 7400000, guid: d282b157e765c2a41a05b87fac30cb27, type: 2}
+    - {fileID: 7400000, guid: ac957bb9da781cc44b890d7d811bef7e, type: 2}
+    - {fileID: 7400000, guid: f11896b17e3df704db7eeba5575a9727, type: 2}
+    - {fileID: 7400000, guid: 33f2c2c9391208d42a98adc6ae8a4413, type: 2}
+  - playerState: 1
+    animations:
+    - {fileID: 7400000, guid: fc2cc52b4dd8e3a468fed0046161d30e, type: 2}
+    - {fileID: 7400000, guid: b326c1b9494f16d44829f5f9de21b155, type: 2}
+    - {fileID: 7400000, guid: ec3226bb7974f4747aef12d8424d39d1, type: 2}
+    - {fileID: 7400000, guid: 5b0e1a417a36c584cb73e114e9d2caea, type: 2}
+    - {fileID: 7400000, guid: 8296ea6b4fca396448222fff32e5a0b1, type: 2}
+    - {fileID: 7400000, guid: 45abc484754314341b01f93c4d327300, type: 2}
+    - {fileID: 7400000, guid: d094eb6ce2929114298c02ca792547b6, type: 2}
+    - {fileID: 7400000, guid: 667053e3837113444b5f47ded4941cd8, type: 2}
