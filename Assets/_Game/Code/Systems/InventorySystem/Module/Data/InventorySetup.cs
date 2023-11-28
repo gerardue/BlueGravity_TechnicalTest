@@ -7,7 +7,7 @@ namespace Game.Systems.InventorySystem.Data
     public class InventorySetup : ScriptableObject
     {
         [SerializeField]
-        private List<int> itemsId;
+        private List<int> itemsId = new List<int>();
 
         public List<int> Items => itemsId;
 

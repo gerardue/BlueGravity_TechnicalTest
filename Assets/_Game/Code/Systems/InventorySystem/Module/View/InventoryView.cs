@@ -40,7 +40,7 @@ namespace Game.Systems.InventorySystem.View
         }
         
         public void CreateItem(int aItemId, string aNameItem, int price, Sprite aIcon, Action<int> aOnSell, 
-            Action aOnEquip, Action<int> onRemoveItem)
+            Action<int> aOnEquip, Action<int> onRemoveItem)
         {
             var item = ObjectPool.Instance.CreateObject(inventoryItem, parentItems);
             item.Initialize(aItemId, aNameItem, price, aIcon, aOnSell, aOnEquip, onRemoveItem);

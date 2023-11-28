@@ -30,7 +30,7 @@ namespace Game.Systems.InventorySystem.View
         #region Public Methods
 
         public void Initialize(int aItemId, string aNameItem, int aPrice, Sprite aIcon, Action<int> aOnSell, 
-            Action aOnEquip, Action<int> aOnRemoveItem)
+            Action<int> aOnEquip, Action<int> aOnRemoveItem)
         {
             itemId = aItemId;
             nameItemText.text = aNameItem;
@@ -49,9 +49,7 @@ namespace Game.Systems.InventorySystem.View
             equipButton.onClick.RemoveAllListeners();
             equipButton.onClick.AddListener(() =>
             {
-                aOnEquip?.Invoke();
-                aOnRemoveItem?.Invoke(itemId);
-                RecycleItem();
+                aOnEquip?.Invoke(itemId);
             });
             
         }

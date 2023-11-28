@@ -1,5 +1,5 @@
 using System;
-using Code.Systems.StoreSystem.Controller;
+using Game.Systems.StoreSystem.Controller;
 using Game.Components.ItemsComponent.Data;
 using Game.Systems.StoreSystem.View;
 using Game.Store.Data;
@@ -25,10 +25,9 @@ namespace Game.Systems.StoreSystem.Handler
         
         #region Public Methods
         
-        public void Initialize(Func<int> aOnGetLevelStore, Action<int> aOnBuyItem)
+        public void Initialize(Action<int> aOnDebitItem, Action<int> aOnAddItem)
         {
-            onGetLevelStore = aOnGetLevelStore;
-            storeController.Initialize(aOnBuyItem);
+            storeController.Initialize(aOnDebitItem, aOnAddItem);
         }
 
         public void OpenStore()
@@ -53,12 +52,6 @@ namespace Game.Systems.StoreSystem.Handler
         
         private void SetupStore()
         {
-            if (onGetLevelStore() == currentLvl)
-            {
-                return;
-            }
-            
-            currentLvl = onGetLevelStore();
             store.Dispose();
             
             foreach (ItemSetup item in storeItemsLibrary.StoreItems)

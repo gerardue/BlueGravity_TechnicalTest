@@ -1,7 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using Code.Systems.StoreSystem.Controller;
+using Game.Systems.StoreSystem.Controller;
 using Game.Systems.StoreSystem.Handler;
 using Game.Components.ItemsComponent.Data;
 using UnityEngine;
@@ -17,9 +17,9 @@ namespace Game.Systems.StoreSystem.Director
 
         #region Public Methods
 
-        public void Initialize(Func<int> aOnGetLevelStore, Action<int> aOnBuyItem)
+        public void Initialize( Action<int> aOnDebitItem, Action<int> aOnAddItem)
         {
-            storeHandler.Initialize(aOnGetLevelStore, aOnBuyItem);
+            storeHandler.Initialize(aOnDebitItem, aOnAddItem);
         }
         
         public void OpenStore()
