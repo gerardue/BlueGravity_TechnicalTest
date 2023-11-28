@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82de2d92b88c45d196fc3958c011b294, type: 3}
+  m_Name: SheetAnimationSetup 1
+  m_EditorClassIdentifier: 
+  animationsData:
+  - nameAnimation: FemaleCloth
+    sheetAnimations:
+    - sprites:
+      - {fileID: -9977307, guid: abaedb46db58d1f4fb550493841606dd, type: 3}
+      - {fileID: 1727069478, guid: abaedb46db58d1f4fb550493841606dd, type: 3}
+      - {fileID: 1772338189, guid: abaedb46db58d1f4fb550493841606dd, type: 3}
+      - {fileID: 1760573999, guid: abaedb46db58d1f4fb550493841606dd, type: 3}
+      - {fileID: -691953237, guid: abaedb46db58d1f4fb550493841606dd, type: 3}
+      - {fileID: -30344837, guid: abaedb46db58d1f4fb550493841606dd, type: 3}
+      - {fileID: 536967301, guid: abaedb46db58d1f4fb550493841606dd, type: 3}
+      - {fileID: 1569209190, guid: abaedb46db58d1f4fb550493841606dd, type: 3}
+      - {fileID: -2049947444, guid: abaedb46db58d1f4fb550493841606dd, type: 3}
+      - {fileID: -596253851, guid: abaedb46db58d1f4fb550493841606dd, type: 3}
+      - {fileID: 1256291465, guid: abaedb46db58d1f4fb550493841606dd, type: 3}
+      - {fileID: -2031754350, guid: abaedb46db58d1f4fb550493841606dd, type: 3}
+      - {fileID: 1234698312, guid: abaedb46db58d1f4fb550493841606dd, type: 3}
+      - {fileID: -1675966998, guid: abaedb46db58d1f4fb550493841606dd, type: 3}
+      - {fileID: -1100904594, guid: abaedb46db58d1f4fb550493841606dd, type: 3}
+      - {fileID: -653953526, guid: abaedb46db58d1f4fb550493841606dd, type: 3}
+      - {fileID: 1876348904, guid: abaedb46db58d1f4fb550493841606dd, type: 3}
+      - {fileID: -684340505, guid: abaedb46db58d1f4fb550493841606dd, type: 3}
+      - {fileID: -26235103, guid: abaedb46db58d1f4fb550493841606dd, type: 3}
+      - {fileID: 151527713, guid: abaedb46db58d1f4fb550493841606dd, type: 3}
+      - {fileID: 806114151, guid: abaedb46db58d1f4fb550493841606dd, type: 3}
+      - {fileID: -2022586980, guid: abaedb46db58d1f4fb550493841606dd, type: 3}
+      - {fileID: 1746892497, guid: abaedb46db58d1f4fb550493841606dd, type: 3}
+      - {fileID: -1196079818, guid: abaedb46db58d1f4fb550493841606dd, type: 3}

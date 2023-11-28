@@ -4,7 +4,169 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70bd6ff4-8854-4514-a76b-e35b9c2a4e5b" name="Changes" comment="" />
+    <list default="true" id="70bd6ff4-8854-4514-a76b-e35b9c2a4e5b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/_Game/Code/Systems/PlayerSystem.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Game/Code/Systems/PlayerSystem/Director.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Game/Code/Systems/PlayerSystem/Director/PlayerDirector.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Game/Code/Systems/PlayerSystem/Director/PlayerDirector.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Game/Code/Systems/PlayerSystem/Module.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Game/Code/Systems/PlayerSystem/Module/Controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Game/Code/Systems/PlayerSystem/Module/Controller/AnimationClipOverrides.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Game/Code/Systems/PlayerSystem/Module/Controller/AnimationClipOverrides.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Game/Code/Systems/PlayerSystem/Module/Controller/AnimationCreatorTool.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Game/Code/Systems/PlayerSystem/Module/Controller/AnimationCreatorTool.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Game/Code/Systems/PlayerSystem/Module/Controller/PlayerCustomizerController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Game/Code/Systems/PlayerSystem/Module/Controller/PlayerCustomizerController.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Game/Code/Systems/PlayerSystem/Module/Controller/PlayerMovement.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Game/Code/Systems/PlayerSystem/Module/Controller/PlayerMovement.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Game/Code/Systems/PlayerSystem/Module/Controller/SheetAnimationSetup.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Game/Code/Systems/PlayerSystem/Module/Controller/SheetAnimationSetup.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Game/Code/Systems/PlayerSystem/Module/Data.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Game/Code/Systems/PlayerSystem/Module/Data/BodyPartSettings.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Game/Code/Systems/PlayerSystem/Module/Data/BodyPartSettings.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Game/Code/Systems/PlayerSystem/Module/Data/BodySettings.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Game/Code/Systems/PlayerSystem/Module/Data/BodySettings.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Game/Code/Systems/PlayerSystem/Module/Data/PlayerAnimationSettings.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Game/Code/Systems/PlayerSystem/Module/Data/PlayerAnimationSettings.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Game/Code/Systems/PlayerSystem/Module/Data/PlayerAnimatorData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Game/Code/Systems/PlayerSystem/Module/Data/PlayerAnimatorData.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BlueGravity_TechnicalTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BlueGravity_TechnicalTest/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/BasePlayer_WalkBack.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/BasePlayer_WalkBack.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/BasePlayer_WalkFront.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/BasePlayer_WalkFront.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/BasePlayer_WalkLeft.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/BasePlayer_WalkLeft.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/BasePlayer_WalkLeftDown.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/BasePlayer_WalkLeftDown.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/BasePlayer_WalkLeftUp.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/BasePlayer_WalkLeftUp.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/BasePlayer_WalkRight.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/BasePlayer_WalkRight.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/BasePlayer_WalkRightDown.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/BasePlayer_WalkRightDown.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/BasePlayer_WalkRightUp.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/BasePlayer_WalkRightUp.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/PlayerFemaleCloth_1_WalkBack.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/PlayerFemaleCloth_1_WalkBack.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/PlayerFemaleCloth_1_WalkFront.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/PlayerFemaleCloth_1_WalkFront.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/PlayerFemaleCloth_1_WalkLeft.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/PlayerFemaleCloth_1_WalkLeft.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/PlayerFemaleCloth_1_WalkLeftDown.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/PlayerFemaleCloth_1_WalkLeftDown.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/PlayerFemaleCloth_1_WalkLeftUp.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/PlayerFemaleCloth_1_WalkLeftUp.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/PlayerFemaleCloth_1_WalkRight.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/PlayerFemaleCloth_1_WalkRight.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/PlayerFemaleCloth_1_WalkRightDown.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/PlayerFemaleCloth_1_WalkRightDown.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/PlayerFemaleCloth_1_WalkRightUp.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/PlayerFemaleCloth_1_WalkRightUp.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/PlayerFemaleCloth_2_WalkBack.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/PlayerFemaleCloth_2_WalkBack.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/PlayerFemaleCloth_2_WalkFront.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/PlayerFemaleCloth_2_WalkFront.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/PlayerFemaleCloth_2_WalkLeft.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/PlayerFemaleCloth_2_WalkLeft.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/PlayerFemaleCloth_2_WalkLeftDown.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/PlayerFemaleCloth_2_WalkLeftDown.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/PlayerFemaleCloth_2_WalkLeftUp.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/PlayerFemaleCloth_2_WalkLeftUp.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/PlayerFemaleCloth_2_WalkRight.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/PlayerFemaleCloth_2_WalkRight.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/PlayerFemaleCloth_2_WalkRightDown.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/PlayerFemaleCloth_2_WalkRightDown.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/PlayerFemaleCloth_2_WalkRightUp.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/PlayerFemaleCloth_2_WalkRightUp.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/PlayerFemaleCloth_3_WalkBack.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/PlayerFemaleCloth_3_WalkBack.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/PlayerFemaleCloth_3_WalkFront.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/PlayerFemaleCloth_3_WalkFront.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/PlayerFemaleCloth_3_WalkLeft.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/PlayerFemaleCloth_3_WalkLeft.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/PlayerFemaleCloth_3_WalkLeftDown.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/PlayerFemaleCloth_3_WalkLeftDown.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/PlayerFemaleCloth_3_WalkLeftUp.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/PlayerFemaleCloth_3_WalkLeftUp.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/PlayerFemaleCloth_3_WalkRight.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/PlayerFemaleCloth_3_WalkRight.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/PlayerFemaleCloth_3_WalkRightDown.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/PlayerFemaleCloth_3_WalkRightDown.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/PlayerFemaleCloth_3_WalkRightUp.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/PlayerFemaleCloth_3_WalkRightUp.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/PlayerFemaleCloth_4_WalkBack.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/PlayerFemaleCloth_4_WalkBack.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/PlayerFemaleCloth_4_WalkFront.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/PlayerFemaleCloth_4_WalkFront.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/PlayerFemaleCloth_4_WalkLeft.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/PlayerFemaleCloth_4_WalkLeft.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/PlayerFemaleCloth_4_WalkLeftDown.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/PlayerFemaleCloth_4_WalkLeftDown.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/PlayerFemaleCloth_4_WalkLeftUp.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/PlayerFemaleCloth_4_WalkLeftUp.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/PlayerFemaleCloth_4_WalkRight.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/PlayerFemaleCloth_4_WalkRight.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/PlayerFemaleCloth_4_WalkRightDown.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/PlayerFemaleCloth_4_WalkRightDown.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/PlayerFemaleCloth_4_WalkRightUp.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/PlayerFemaleCloth_4_WalkRightUp.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/PlayerFemaleCloth_5_WalkBack.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/PlayerFemaleCloth_5_WalkBack.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/PlayerFemaleCloth_5_WalkFront.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/PlayerFemaleCloth_5_WalkFront.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/PlayerFemaleCloth_5_WalkLeft.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/PlayerFemaleCloth_5_WalkLeft.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/PlayerFemaleCloth_5_WalkLeftDown.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/PlayerFemaleCloth_5_WalkLeftDown.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/PlayerFemaleCloth_5_WalkLeftUp.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/PlayerFemaleCloth_5_WalkLeftUp.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/PlayerFemaleCloth_5_WalkRight.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/PlayerFemaleCloth_5_WalkRight.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/PlayerFemaleCloth_5_WalkRightDown.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/PlayerFemaleCloth_5_WalkRightDown.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/PlayerFemaleCloth_5_WalkRightUp.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/PlayerFemaleCloth_5_WalkRightUp.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/PlayerFemaleCloth_6_WalkBack.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/PlayerFemaleCloth_6_WalkBack.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/PlayerFemaleCloth_6_WalkFront.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/PlayerFemaleCloth_6_WalkFront.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/PlayerFemaleCloth_6_WalkLeft.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/PlayerFemaleCloth_6_WalkLeft.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/PlayerFemaleCloth_6_WalkLeftDown.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/PlayerFemaleCloth_6_WalkLeftDown.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/PlayerFemaleCloth_6_WalkLeftUp.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/PlayerFemaleCloth_6_WalkLeftUp.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/PlayerFemaleCloth_6_WalkRight.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/PlayerFemaleCloth_6_WalkRight.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/PlayerFemaleCloth_6_WalkRightDown.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/PlayerFemaleCloth_6_WalkRightDown.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/PlayerFemaleCloth_6_WalkRightUp.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Animations/Player/PlayerFemaleCloth_6_WalkRightUp.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Sprites/Player/1_PlayerFemaleHair_1_WalkFront.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Sprites/Player/1_PlayerFemaleHair_1_WalkFront.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Sprites/Player/2_PlayerFemaleHair_1_WalkLeftDown.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Sprites/Player/2_PlayerFemaleHair_1_WalkLeftDown.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Sprites/Player/3_PlayerFemaleHair_1_WalkLeft.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Sprites/Player/3_PlayerFemaleHair_1_WalkLeft.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Sprites/Player/4_PlayerFemaleHair_1_WalkRightDown.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Sprites/Player/4_PlayerFemaleHair_1_WalkRightDown.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Sprites/Player/5_PlayerFemaleHair_1_WalkRight.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Sprites/Player/5_PlayerFemaleHair_1_WalkRight.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Sprites/Player/6_PlayerFemaleHair_1_WalkLeftUp.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Sprites/Player/6_PlayerFemaleHair_1_WalkLeftUp.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Sprites/Player/7_PlayerFemaleHair_1_WalkBack.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Sprites/Player/7_PlayerFemaleHair_1_WalkBack.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Sprites/Player/8_PlayerFemaleHair_1_WalkRightUp.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Sprites/Player/8_PlayerFemaleHair_1_WalkRightUp.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Sprites/Player/FemaleHair_2_0.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Art/Sprites/Player/FemaleHair_2_0.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Sprites/Player/PlayerFemaleHair_2_WalkFront.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Art/Sprites/Player/PlayerFemaleHair_2_WalkFront.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Code/Controllers/AnimationCreator.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/RiderScriptEditorPersistedState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/RiderScriptEditorPersistedState.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,9 +174,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/_Game/Code/Systems/StoreSystem/Module/StoreHandler.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -35,7 +194,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "dev__DayNightCycle",
+    "git-widget-placeholder": "dev__Player",
     "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -97,8 +256,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1701121267754</updated>
-      <workItem from="1701121268981" duration="1322000" />
-      <workItem from="1701131409959" duration="1127000" />
+      <workItem from="1701121268981" duration="937000" />
+      <workItem from="1701134317582" duration="20020000" />
     </task>
     <servers />
   </component>

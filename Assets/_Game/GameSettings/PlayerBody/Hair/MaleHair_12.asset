@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc1742493bbd4a7eaa5f7670fbaa837b, type: 3}
+  m_Name: MaleHair_12
+  m_EditorClassIdentifier: 
+  id: 12
+  animations:
+  - playerState: 0
+    animations:
+    - {fileID: 7400000, guid: 894342d407566a04c992d2fd4cf07556, type: 2}
+    - {fileID: 7400000, guid: 53bf05f1b99a9f543b78985d8f164059, type: 2}
+    - {fileID: 7400000, guid: b167f6a88af7f8a42a079c9f105b6807, type: 2}
+    - {fileID: 7400000, guid: ad572090ebb9eaa41a33cad98a8e3882, type: 2}
+    - {fileID: 7400000, guid: 46554a84558757f448b699498d612ab3, type: 2}
+    - {fileID: 7400000, guid: 5d7633f56bb70c3418b0b89b2b5e0b3c, type: 2}
+    - {fileID: 7400000, guid: 1c88e69b83f919741b03c4c9b6c357c9, type: 2}
+    - {fileID: 7400000, guid: b9245b33f220ed044ad153abc3474894, type: 2}
+  - playerState: 1
+    animations:
+    - {fileID: 7400000, guid: f58cd1b980141a64b9becdfe3ebaf9e4, type: 2}
+    - {fileID: 7400000, guid: 966b73b31ce017e489d890610d9cb0a0, type: 2}
+    - {fileID: 7400000, guid: 2fa687a7adcccc14abed3708c4bcb9ab, type: 2}
+    - {fileID: 7400000, guid: c78c998a2416d8441aaaf29623676b41, type: 2}
+    - {fileID: 7400000, guid: 51ce2ea613c6eb842870e2c60411a0ca, type: 2}
+    - {fileID: 7400000, guid: 124d30caf10137745ad9c5946592711b, type: 2}
+    - {fileID: 7400000, guid: 46e6ea5951dfb09418294640b8ac285d, type: 2}
+    - {fileID: 7400000, guid: ed2c9c247d0304e468bc2f48baf0b4ef, type: 2}

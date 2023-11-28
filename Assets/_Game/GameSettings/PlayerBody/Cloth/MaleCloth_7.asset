@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc1742493bbd4a7eaa5f7670fbaa837b, type: 3}
+  m_Name: MaleCloth_7
+  m_EditorClassIdentifier: 
+  id: 7
+  animations:
+  - playerState: 0
+    animations:
+    - {fileID: 7400000, guid: 96a5a25d774232a4e940e56205684a50, type: 2}
+    - {fileID: 7400000, guid: 7280ce254ecd4344386a95da00ab479e, type: 2}
+    - {fileID: 7400000, guid: 3bf9ce0cb8464b6418fa7ae93c191f4f, type: 2}
+    - {fileID: 7400000, guid: d4cf9cc5912aba54889ef47b4c3d1905, type: 2}
+    - {fileID: 7400000, guid: 10a5529925390174284980f853c5d776, type: 2}
+    - {fileID: 7400000, guid: d57b4b863a64f0746968df97dba848e3, type: 2}
+    - {fileID: 7400000, guid: 62d5299537844ac4b905a24dda67447c, type: 2}
+    - {fileID: 7400000, guid: feb9e542aea594947b2add5eaaa4d58f, type: 2}
+  - playerState: 1
+    animations:
+    - {fileID: 7400000, guid: 2fcb947642fd49f4a934c57b76ab7d4a, type: 2}
+    - {fileID: 7400000, guid: 69f96850b94714a4680d3b903d49c547, type: 2}
+    - {fileID: 7400000, guid: 1688c6ab800d65442bf085aaa1640e81, type: 2}
+    - {fileID: 7400000, guid: 7f04b7e7c3f86664a8925567bf982a28, type: 2}
+    - {fileID: 7400000, guid: bf25bdd6bf63db84b88fa596fc41a9b4, type: 2}
+    - {fileID: 7400000, guid: 616af062072798540b5a983b5d44b636, type: 2}
+    - {fileID: 7400000, guid: 9eb301962f8001a40b6589174540865a, type: 2}
+    - {fileID: 7400000, guid: e07bb51e6feaeea4fab6bb5f9aafd3e2, type: 2}
