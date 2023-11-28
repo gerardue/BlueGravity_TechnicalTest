@@ -1,0 +1,16 @@
+{
+    "name": "DayNightCycleDirector",
+    "rootNamespace": "",
+    "references": [
+        "GUID:63dd0404f31302c4aa1ac4b84425df36"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
