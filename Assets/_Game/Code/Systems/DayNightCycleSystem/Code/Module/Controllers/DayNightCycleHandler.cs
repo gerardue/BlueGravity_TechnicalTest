@@ -1,11 +1,9 @@
 ﻿using System;
-using System.Text;
+using Game.Systems.DayNightCycleSystem.Data;
 using UnityEngine;
 using UnityEngine.Rendering.Universal;
-using HobittonJourney.Systems.DayNightCycleSystem.Data;
-using UnityEngine.Serialization;
 
-namespace HobittonJourney.Systems.DayNightCycleSystem.Controllers
+namespace Game.Systems.DayNightCycleSystem.Controllers
 {
     /// <summary>
     /// This class is responsible to handle the Day & Night Cycle System

@@ -1,11 +1,11 @@
 ﻿using UnityEngine;
 
-namespace HobittonJourney.Systems.DayNightCycleSystem.Data
+namespace Game.Systems.DayNightCycleSystem.Data
 {
     /// <summary>
     /// This class is responsible to hold the settings for the Day & Night Cycle System
     /// </summary>
-    [CreateAssetMenu(fileName = "DayNightCycleSettings", menuName = "Hobbiton Journey/Settings/Day Night Cycle Settings")]
+    [CreateAssetMenu(fileName = "DayNightCycleSettings", menuName = "Game/Settings/Day Night Cycle Settings")]
     public class DayNightCycleSettings : ScriptableObject
     {
         [SerializeField, Tooltip("Day Cycle Duration in seconds")]

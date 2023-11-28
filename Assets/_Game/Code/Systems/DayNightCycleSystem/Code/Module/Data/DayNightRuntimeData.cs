@@ -1,4 +1,4 @@
-﻿namespace HobittonJourney.Systems.DayNightCycleSystem.Data
+﻿namespace Game.Systems.DayNightCycleSystem.Data
 {
     [System.Serializable]
     public struct DayNightRuntimeData

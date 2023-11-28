@@ -1,8 +1,6 @@
-﻿using System;
-using System.Text;
-using UnityEngine;
+﻿using System.Text;
 
-namespace HobittonJourney.Systems.DayNightCycleSystem.Controllers
+namespace Game.Systems.DayNightCycleSystem.Controllers
 {
     /// <summary>
     /// This class is responsible to convert world time.
