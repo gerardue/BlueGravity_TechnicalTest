@@ -9,11 +9,24 @@ namespace Game.Systems.UISystem.Director
         [SerializeField]
         private MenusHandlerView menusHandlerView;
 
+        [SerializeField]
+        private HudView hudView;
+
         #region Public Methods
 
-        public void Initialize(Action aOnStore, Action aOnInventory)
+        public void Initialize(Action aOnInventory)
         {
-            menusHandlerView.Initialize(aOnStore, aOnInventory);
+            menusHandlerView.Initialize(aOnInventory);
+        }
+        
+        public void UpdateCoinText(int coins)
+        {
+            hudView.UpdateCoinText(coins);
+        }
+        
+        public void UpdateHappiness(int currentHappiness, int maxHappiness)
+        {
+            hudView.UpdateHappiness(currentHappiness, maxHappiness); 
         }
 
         #endregion

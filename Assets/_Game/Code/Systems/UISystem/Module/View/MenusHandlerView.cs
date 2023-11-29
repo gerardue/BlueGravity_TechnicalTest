@@ -8,22 +8,18 @@ namespace Game.Systems.UISystem.View
     public class MenusHandlerView : MonoBehaviour
     {
         [SerializeField]
-        private MenuView store;
-
-        [SerializeField]
         private MenuView inventory;
         
         private List<MenuView> menuViews;
         
         // Events
-        private Action onStore;
+        // private Action onStore;
         private Action onInventory; 
         
         #region Public Methods
 
-        public void Initialize(Action aOnStore, Action aOnInventory)
+        public void Initialize(Action aOnInventory)
         {
-            onStore = aOnStore;
             onInventory = aOnInventory; 
             
             AddMenus();
@@ -36,15 +32,8 @@ namespace Game.Systems.UISystem.View
 
         private void SetupMenus()
         {
-            store.Initialize(OpenStore);
+            // store.Initialize(OpenStore);
             inventory.Initialize(OpenInventory);
-        }
-
-        private void OpenStore()
-        {
-            CloseAllMenus();
-            store.Open(true);
-            onStore?.Invoke();
         }
 
         private void OpenInventory()
@@ -57,7 +46,6 @@ namespace Game.Systems.UISystem.View
         private void AddMenus()
         {
             menuViews = new List<MenuView>();
-            menuViews.Add(store);
             menuViews.Add(inventory);
         }
 

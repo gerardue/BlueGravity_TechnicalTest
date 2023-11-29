@@ -19,6 +19,16 @@ namespace Game.Systems.GameStateSystem.Director
             OnUpdateCoin?.Invoke(gameDataSetup.Coins);
         }
 
+        public bool Debit(int aCost)
+        {
+            bool canDebit = gameDataSetup.Coins > aCost;
+            
+            if(canDebit)
+                UpdateCoin(-aCost);
+            
+            return canDebit; 
+        }
+
         public void IncreaseLevel()
         {
             gameDataSetup.Level++;
@@ -27,6 +37,11 @@ namespace Game.Systems.GameStateSystem.Director
         public int GetCurrentLevel()
         {
             return gameDataSetup.Level; 
+        }
+
+        public int GetCurrentCoins()
+        {
+            return gameDataSetup.Coins; 
         }
 
         #endregion

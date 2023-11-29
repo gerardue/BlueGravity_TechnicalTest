@@ -9,8 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a8852dcc8bb44129039636f13e8f74b, type: 3}
-  m_Name: GameData
+  m_Script: {fileID: 11500000, guid: e7bd3729366e46b4934f51ea341f6502, type: 3}
+  m_Name: PlayerRuntimeData
   m_EditorClassIdentifier: 
-  coins: 5
-  level: 0
+  isPlayerBusy: 0

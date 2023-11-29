@@ -9,12 +9,12 @@ namespace Game.Systems.InventorySystem.Director
     {
         [SerializeField]
         private InventoryHandler inventoryHandler;
-
+        
         #region Public Methods
         
-        public void Initialize(Func<int, ItemSetup> aOnGetItem, Action<int> aOnSell, Action<int> aOnEquip)
+        public void Initialize(Func<int, ItemSetup> aOnGetItem, Action<int> aOnSell, Action<int> aOnEquip, Action<bool> aOnOpen)
         {
-            inventoryHandler.Initialize(aOnGetItem, aOnSell, aOnEquip);
+            inventoryHandler.Initialize(aOnGetItem, aOnSell, aOnEquip, aOnOpen);
         }
         
         public void OpenInventory()

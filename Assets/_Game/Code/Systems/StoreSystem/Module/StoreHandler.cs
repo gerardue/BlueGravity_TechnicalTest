@@ -17,28 +17,22 @@ namespace Game.Systems.StoreSystem.Handler
         
         [SerializeField]
         private StoreView store;
-
-        private int currentLvl = 0; 
         
-        private Func<int> onGetLevelStore; // It takes the lvl player to configure the store
-        private Action<int> onBuyItem;
+        private Func<int, bool> onBuyItem;
+        private Action<bool> onOpen;
         
         #region Public Methods
         
-        public void Initialize(Action<int> aOnDebitItem, Action<int> aOnAddItem)
+        public void Initialize(Func<int, bool> aOnDebitItem, Action<int> aOnAddItem, Action<bool> aOnOpen)
         {
-            storeController.Initialize(aOnDebitItem, aOnAddItem);
+            storeController.Initialize(aOnDebitItem, aOnAddItem, store.OpenPopUp);
+            onOpen = aOnOpen;
         }
 
         public void OpenStore()
         {
             SetupStore();
-            store.Initialize();
-        }
-
-        public void CloseStore()
-        {
-            store.Dispose();
+            store.Initialize(onOpen);
         }
 
         public void UpdateCoins(int aCurrentAmountCoins)

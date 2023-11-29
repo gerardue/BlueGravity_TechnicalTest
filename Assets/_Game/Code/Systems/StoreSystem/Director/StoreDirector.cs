@@ -17,19 +17,14 @@ namespace Game.Systems.StoreSystem.Director
 
         #region Public Methods
 
-        public void Initialize( Action<int> aOnDebitItem, Action<int> aOnAddItem)
+        public void Initialize(Func<int, bool> aOnDebitItem, Action<int> aOnAddItem, Action<bool> aOnOpen)
         {
-            storeHandler.Initialize(aOnDebitItem, aOnAddItem);
+            storeHandler.Initialize(aOnDebitItem, aOnAddItem, aOnOpen);
         }
         
         public void OpenStore()
         {
             storeHandler.OpenStore();
-        }
-        
-        public void CloseStore()
-        {
-            storeHandler.CloseStore();
         }
         
         public void UpdateCoins(int aCurrentAmountCoins)

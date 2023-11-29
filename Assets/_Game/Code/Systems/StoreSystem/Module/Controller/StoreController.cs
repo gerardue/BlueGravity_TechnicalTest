@@ -10,23 +10,31 @@ namespace Game.Systems.StoreSystem.Controller
         [SerializeField]
         private StoreItemLibrary storeItemLibrary;
 
-        private Action<int> onPurchase;
+        private Func<int, bool> onPurchase;
         private Action<int> onAddItem;
+        private Action onNotDebit;
         
         #region Public Methods
         
-        public void Initialize(Action<int> aOnPurchase, Action<int> aOnAddItem)
+        public void Initialize(Func<int, bool> aOnPurchase, Action<int> aOnAddItem, Action aOnNotDebit)
         {
             storeItemLibrary.InitializeItems();
             onPurchase = aOnPurchase;
-            onAddItem = aOnAddItem; 
+            onAddItem = aOnAddItem;
+            onNotDebit = aOnNotDebit;
         }
         
         public void BuyItem(int itemId)
         {
             int price = storeItemLibrary.StoreItems[itemId].Price;
             onAddItem?.Invoke(itemId);
-            onPurchase?.Invoke(-price);
+            
+            bool isDebited = onPurchase.Invoke(price);
+
+            if (!isDebited)
+            {
+                onNotDebit?.Invoke();
+            }
         }
         
         public ItemSetup GetItem(int aItemId)

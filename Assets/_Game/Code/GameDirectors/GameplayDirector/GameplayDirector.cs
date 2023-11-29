@@ -29,9 +29,10 @@ namespace Game.GameDirectors.GamePlayDirector
         private void Awake()
         {
             playerDirector.Initialize(storeDirector.GetItem);
-            inventoryDirector.Initialize(storeDirector.GetItem, gameStateDirector.UpdateCoin, playerDirector.EquipItem);
-            storeDirector.Initialize(gameStateDirector.UpdateCoin, inventoryDirector.AddItemToinventory);
-            uiDirector.Initialize(storeDirector.OpenStore, inventoryDirector.OpenInventory);
+            inventoryDirector.Initialize(storeDirector.GetItem, gameStateDirector.UpdateCoin, playerDirector.EquipItem, playerDirector.SetPlayerBusy);
+            storeDirector.Initialize(gameStateDirector.Debit, inventoryDirector.AddItemToinventory, playerDirector.SetPlayerBusy);
+            uiDirector.Initialize(inventoryDirector.OpenInventory);
+            uiDirector.UpdateCoinText(gameStateDirector.GetCurrentCoins());
         }
         
         private void OnEnable()
