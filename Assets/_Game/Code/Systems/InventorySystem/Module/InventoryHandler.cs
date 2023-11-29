@@ -16,26 +16,33 @@ namespace Game.Systems.InventorySystem.Handler
 
         private Func<int, ItemSetup> onGetItem;
         private Action<int> onSell;
-        private Action onEquip; 
+        private Action<int> onEquip;
+        private Action<bool> onOpen;
         
         #region Public Methods
 
-        public void Initialize(Func<int, ItemSetup> aOnGetItem, Action<int> aOnSell, Action aOnEquip)
+        public void Initialize(Func<int, ItemSetup> aOnGetItem, Action<int> aOnSell, Action<int> aOnEquip, Action<bool> aOnOpen)
         {
             onGetItem = aOnGetItem;
             onSell = aOnSell;
-            onEquip = aOnEquip; 
+            onEquip = aOnEquip;
+            onOpen = aOnOpen;
         }
 
         public void OpenInventory()
         { 
             SetupInventory();
-            inventoryView.Initialize();
+            inventoryView.Initialize(onOpen);
         }
 
         public void CloseInventory()
         {
             inventoryView.Dispose();
+        }
+
+        public void AddItemToInventory(int aId)
+        {
+            inventorySetup.AddItem(aId);
         }
         
         #endregion

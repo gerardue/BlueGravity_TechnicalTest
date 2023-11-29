@@ -3,28 +3,38 @@ using Game.Components.ItemsComponent.Data;
 using Game.Store.Data;
 using UnityEngine;
 
-namespace Code.Systems.StoreSystem.Controller
+namespace Game.Systems.StoreSystem.Controller
 {
     public class StoreController : MonoBehaviour
     {
         [SerializeField]
         private StoreItemLibrary storeItemLibrary;
 
-        private Action<int> onPurchase;
-        private Action<int> onSell; 
+        private Func<int, bool> onPurchase;
+        private Action<int> onAddItem;
+        private Action onNotDebit;
         
         #region Public Methods
         
-        public void Initialize(Action<int> aOnPurchase)
+        public void Initialize(Func<int, bool> aOnPurchase, Action<int> aOnAddItem, Action aOnNotDebit)
         {
             storeItemLibrary.InitializeItems();
             onPurchase = aOnPurchase;
+            onAddItem = aOnAddItem;
+            onNotDebit = aOnNotDebit;
         }
         
         public void BuyItem(int itemId)
         {
             int price = storeItemLibrary.StoreItems[itemId].Price;
-            onPurchase?.Invoke(-price);
+            onAddItem?.Invoke(itemId);
+            
+            bool isDebited = onPurchase.Invoke(price);
+
+            if (!isDebited)
+            {
+                onNotDebit?.Invoke();
+            }
         }
         
         public ItemSetup GetItem(int aItemId)

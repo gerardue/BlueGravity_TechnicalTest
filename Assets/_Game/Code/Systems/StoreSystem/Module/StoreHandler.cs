@@ -1,5 +1,5 @@
 using System;
-using Code.Systems.StoreSystem.Controller;
+using Game.Systems.StoreSystem.Controller;
 using Game.Components.ItemsComponent.Data;
 using Game.Systems.StoreSystem.View;
 using Game.Store.Data;
@@ -17,29 +17,22 @@ namespace Game.Systems.StoreSystem.Handler
         
         [SerializeField]
         private StoreView store;
-
-        private int currentLvl = 0; 
         
-        private Func<int> onGetLevelStore; // It takes the lvl player to configure the store
-        private Action<int> onBuyItem;
+        private Func<int, bool> onBuyItem;
+        private Action<bool> onOpen;
         
         #region Public Methods
         
-        public void Initialize(Func<int> aOnGetLevelStore, Action<int> aOnBuyItem)
+        public void Initialize(Func<int, bool> aOnDebitItem, Action<int> aOnAddItem, Action<bool> aOnOpen)
         {
-            onGetLevelStore = aOnGetLevelStore;
-            storeController.Initialize(aOnBuyItem);
+            storeController.Initialize(aOnDebitItem, aOnAddItem, store.OpenPopUp);
+            onOpen = aOnOpen;
         }
 
         public void OpenStore()
         {
             SetupStore();
-            store.Initialize();
-        }
-
-        public void CloseStore()
-        {
-            store.Dispose();
+            store.Initialize(onOpen);
         }
 
         public void UpdateCoins(int aCurrentAmountCoins)
@@ -53,12 +46,6 @@ namespace Game.Systems.StoreSystem.Handler
         
         private void SetupStore()
         {
-            if (onGetLevelStore() == currentLvl)
-            {
-                return;
-            }
-            
-            currentLvl = onGetLevelStore();
             store.Dispose();
             
             foreach (ItemSetup item in storeItemsLibrary.StoreItems)

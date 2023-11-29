@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using Game.Systems.PlayerSystem.Data;
+using UnityEngine;
 using UnityEngine.Serialization;
 
 namespace Game.Systems.PlayerSystem.Controller
@@ -9,9 +10,11 @@ namespace Game.Systems.PlayerSystem.Controller
         private Animator[] animators;
         [SerializeField]
         private Rigidbody2D myRigidbody;
+
+        [SerializeField]
+        private PlayerRuntimeData runtimeData; 
         
         private float speed = 4f;
-        [SerializeField]
         private Vector3 playerMovement;
 
         private void Start()
@@ -31,7 +34,7 @@ namespace Game.Systems.PlayerSystem.Controller
 
         private void UpdateAnimationAndMove()
         {
-            if (playerMovement != Vector3.zero)
+            if (playerMovement != Vector3.zero && !runtimeData.IsPlayerBusy())
             {
                 MoveCharacter();
                 SetAnimationData(playerMovement.x, playerMovement.y, true);
@@ -41,12 +44,12 @@ namespace Game.Systems.PlayerSystem.Controller
                 SetAnimationData(playerMovement.x, playerMovement.y, false);
             }
         }
-
+        
         private void MoveCharacter()
         {
             myRigidbody.MovePosition(transform.position + playerMovement * (speed * Time.deltaTime));
         }
-
+        
         private void SetAnimationData(float x, float y, bool isMoving)
         {
             foreach (Animator animator in animators)

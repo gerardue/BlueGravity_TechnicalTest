@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Linq;
+using Game.Components.ItemsComponent.Data;
 using Game.Systems.PlayerSystem.Data;
 using UnityEngine;
 
@@ -29,9 +30,15 @@ namespace Game.Systems.PlayerSystem.Controller
         private AnimatorOverrideController animatorOverrideController;
         private AnimationClipOverrides defaultAnimationClips;
 
+        
+
         #region Public Methods
 
-        
+        public void CustomizePlayer(string aBodyPart, int aIdAnimation)
+        {
+            Debug.Log(aBodyPart + " " + aIdAnimation);
+            UpdateBodyPart(aBodyPart, aIdAnimation);
+        }
 
         #endregion
 
