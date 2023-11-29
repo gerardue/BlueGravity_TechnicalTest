@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2688a6139f7406b9eb3a1f60018630e, type: 3}
   m_Name: Hair_8_ItemStore
   m_EditorClassIdentifier: 
-  id: 8
+  id: 19
+  itemId: 8
   nameItem: Short Blonde Hair
   price: 5
   itemCategory: 0

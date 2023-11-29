@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2688a6139f7406b9eb3a1f60018630e, type: 3}
   m_Name: Hair_9_ItemStore
   m_EditorClassIdentifier: 
-  id: 9
+  id: 20
+  itemId: 9
   nameItem: Short Blue Hair
   price: 5
   itemCategory: 0

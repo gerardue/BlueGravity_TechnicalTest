@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2688a6139f7406b9eb3a1f60018630e, type: 3}
   m_Name: Hair_12_ItemStore
   m_EditorClassIdentifier: 
-  id: 12
+  id: 23
+  itemId: 12
   nameItem: Short White Hair
   price: 5
   itemCategory: 0

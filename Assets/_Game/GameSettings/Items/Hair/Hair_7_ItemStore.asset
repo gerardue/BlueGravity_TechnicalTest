@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2688a6139f7406b9eb3a1f60018630e, type: 3}
   m_Name: Hair_7_ItemStore
   m_EditorClassIdentifier: 
-  id: 7
+  id: 18
+  itemId: 7
   nameItem: Short Brown Hair
   price: 5
   itemCategory: 0

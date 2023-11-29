@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2688a6139f7406b9eb3a1f60018630e, type: 3}
   m_Name: Cloth_2_ItemStore
   m_EditorClassIdentifier: 
-  id: 2
+  id: 1
+  itemId: 2
   nameItem: Cloth
   price: 9
   itemCategory: 1

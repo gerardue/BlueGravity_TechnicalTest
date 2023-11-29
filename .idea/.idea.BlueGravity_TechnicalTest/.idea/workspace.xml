@@ -5,45 +5,49 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70bd6ff4-8854-4514-a76b-e35b9c2a4e5b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/_Game/Code/Systems/DayNightCycleSystem/Module/View.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Game/Code/Systems/DayNightCycleSystem/Module/View/TimeView.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Game/Code/Systems/DayNightCycleSystem/Module/View/TimeView.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BlueGravity_TechnicalTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BlueGravity_TechnicalTest/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Flower.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Flower.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass A.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass A.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass B.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass B.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass C.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass C.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass D.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass D.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass E.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass E.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass F.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass F.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass G.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass G.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass H.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass H.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass I.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass I.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass J.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass J.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass K.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass K.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass L.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass L.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass M.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass M.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass N.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass N.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass O.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass O.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Props Bush T1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Props Bush T1.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Props Bush T2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Props Bush T2.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Props Bush T3.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Props Bush T3.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Props Bush T4.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Props Bush T4.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Props Bush T5.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Props Bush T5.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Props Bush T6.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Props Bush T6.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Props Tree T1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Props Tree T1.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Props Tree T2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Props Tree T2.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Props Tree T3.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Props Tree T3.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Code/GameDirectors/GameplayDirector/GameplayDirector.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Code/GameDirectors/GameplayDirector/GameplayDirector.asmdef" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Code/GameDirectors/GameplayDirector/GameplayDirector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Code/GameDirectors/GameplayDirector/GameplayDirector.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Code/Systems/DayNightCycleSystem/Module/DayNightCycleSystem.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Code/Systems/DayNightCycleSystem/Module/DayNightCycleSystem.asmdef" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Code/Systems/GameStateSystem/Director/GameStateDirector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Code/Systems/GameStateSystem/Director/GameStateDirector.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Code/Systems/GameStateSystem/Module/Data/GameDataSetup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Code/Systems/GameStateSystem/Module/Data/GameDataSetup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/GameSettings/SheetAnimationSetup 1.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/GameSettings/SheetAnimationSetup 1.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/GameSettings/SheetAnimationSetup.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/GameSettings/SheetAnimationSetup.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Code/Systems/PlayerSystem/Module/Controller/Animation/AnimationCreatorTool.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Code/Systems/PlayerSystem/Module/Controller/Animation/AnimationCreatorTool.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/GameSettings/Inventory/InventorySetup.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/GameSettings/Inventory/InventorySetup.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/GameSettings/Items/Cloth/Cloth_10_ItemStore.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/GameSettings/Items/Cloth/Cloth_10_ItemStore.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/GameSettings/Items/Cloth/Cloth_11_ItemStore.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/GameSettings/Items/Cloth/Cloth_11_ItemStore.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/GameSettings/Items/Cloth/Cloth_12_ItemStore.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/GameSettings/Items/Cloth/Cloth_12_ItemStore.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/GameSettings/Items/Cloth/Cloth_1_ItemStore.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/GameSettings/Items/Cloth/Cloth_1_ItemStore.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/GameSettings/Items/Cloth/Cloth_2_ItemStore.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/GameSettings/Items/Cloth/Cloth_2_ItemStore.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/GameSettings/Items/Cloth/Cloth_3_ItemStore.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/GameSettings/Items/Cloth/Cloth_3_ItemStore.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/GameSettings/Items/Cloth/Cloth_4_ItemStore.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/GameSettings/Items/Cloth/Cloth_4_ItemStore.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/GameSettings/Items/Cloth/Cloth_5_ItemStore.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/GameSettings/Items/Cloth/Cloth_5_ItemStore.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/GameSettings/Items/Cloth/Cloth_6_ItemStore.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/GameSettings/Items/Cloth/Cloth_6_ItemStore.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/GameSettings/Items/Cloth/Cloth_7_ItemStore.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/GameSettings/Items/Cloth/Cloth_7_ItemStore.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/GameSettings/Items/Cloth/Cloth_8_ItemStore.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/GameSettings/Items/Cloth/Cloth_8_ItemStore.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/GameSettings/Items/Cloth/Cloth_9_ItemStore.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/GameSettings/Items/Cloth/Cloth_9_ItemStore.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/GameSettings/Items/Hair/Hair_10_ItemStore.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/GameSettings/Items/Hair/Hair_10_ItemStore.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/GameSettings/Items/Hair/Hair_11_ItemStore.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/GameSettings/Items/Hair/Hair_11_ItemStore.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/GameSettings/Items/Hair/Hair_12_ItemStore.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/GameSettings/Items/Hair/Hair_12_ItemStore.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/GameSettings/Items/Hair/Hair_1_ItemStore.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/GameSettings/Items/Hair/Hair_1_ItemStore.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/GameSettings/Items/Hair/Hair_2_ItemStore.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/GameSettings/Items/Hair/Hair_2_ItemStore.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/GameSettings/Items/Hair/Hair_3_ItemStore.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/GameSettings/Items/Hair/Hair_3_ItemStore.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/GameSettings/Items/Hair/Hair_4_ItemStore.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/GameSettings/Items/Hair/Hair_4_ItemStore.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/GameSettings/Items/Hair/Hair_5_ItemStore.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/GameSettings/Items/Hair/Hair_5_ItemStore.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/GameSettings/Items/Hair/Hair_6_ItemStore.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/GameSettings/Items/Hair/Hair_6_ItemStore.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/GameSettings/Items/Hair/Hair_7_ItemStore.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/GameSettings/Items/Hair/Hair_7_ItemStore.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/GameSettings/Items/Hair/Hair_8_ItemStore.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/GameSettings/Items/Hair/Hair_8_ItemStore.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/GameSettings/Items/Hair/Hair_9_ItemStore.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/GameSettings/Items/Hair/Hair_9_ItemStore.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/GameSettings/Items/Pants/Pants_10_ItemStore.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/GameSettings/Items/Pants/Pants_10_ItemStore.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/GameSettings/Items/Pants/Pants_11_ItemStore.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/GameSettings/Items/Pants/Pants_11_ItemStore.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/GameSettings/Items/Pants/Pants_12_ItemStore.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/GameSettings/Items/Pants/Pants_12_ItemStore.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/GameSettings/Items/Pants/Pants_1_ItemStore.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/GameSettings/Items/Pants/Pants_1_ItemStore.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/GameSettings/Items/Pants/Pants_2_ItemStore.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/GameSettings/Items/Pants/Pants_2_ItemStore.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/GameSettings/Items/Pants/Pants_3_ItemStore.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/GameSettings/Items/Pants/Pants_3_ItemStore.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/GameSettings/Items/Pants/Pants_4_ItemStore.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/GameSettings/Items/Pants/Pants_4_ItemStore.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/GameSettings/Items/Pants/Pants_5_ItemStore.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/GameSettings/Items/Pants/Pants_5_ItemStore.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/GameSettings/Items/Pants/Pants_6_ItemStore.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/GameSettings/Items/Pants/Pants_6_ItemStore.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/GameSettings/Items/Pants/Pants_7_ItemStore.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/GameSettings/Items/Pants/Pants_7_ItemStore.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/GameSettings/Items/Pants/Pants_8_ItemStore.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/GameSettings/Items/Pants/Pants_8_ItemStore.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/GameSettings/Items/Pants/Pants_9_ItemStore.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/GameSettings/Items/Pants/Pants_9_ItemStore.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/GameSettings/PlayerRuntimeData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/GameSettings/PlayerRuntimeData.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Game/Scenes/Gameplay.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Scenes/Gameplay.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +83,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "dev__GameMechanics",
+    "git-widget-placeholder": "prod",
     "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -96,6 +100,14 @@
   }
 }]]></component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/../Build\BlueGravity_TechnicalTest.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="D:\REMOTE WORK\BLUEGRAVITY" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2021.3.2f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-projectPath &quot;D:\REMOTE WORK\BLUEGRAVITY\BlueGravity_TechnicalTest&quot; -debugCodeOptimization" />
@@ -143,7 +155,7 @@
       <updated>1701121267754</updated>
       <workItem from="1701121268981" duration="937000" />
       <workItem from="1701134317582" duration="20850000" />
-      <workItem from="1701188092136" duration="20256000" />
+      <workItem from="1701188092136" duration="21845000" />
     </task>
     <servers />
   </component>
