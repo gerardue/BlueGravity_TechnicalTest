@@ -29,16 +29,6 @@ namespace Game.Systems.GameStateSystem.Director
             return canDebit; 
         }
 
-        public void IncreaseLevel()
-        {
-            gameDataSetup.Level++;
-        }
-
-        public int GetCurrentLevel()
-        {
-            return gameDataSetup.Level; 
-        }
-
         public int GetCurrentCoins()
         {
             return gameDataSetup.Coins; 

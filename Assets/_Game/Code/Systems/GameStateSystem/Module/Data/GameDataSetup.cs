@@ -8,19 +8,10 @@ namespace Game.Systems.GameStateSystem.Data
         [SerializeField]
         private int coins;
 
-        [SerializeField]
-        private int level;
-
         public int Coins
         {
             get => coins;
             set => coins = value;
-        }
-
-        public int Level
-        {
-            get => level;
-            set => level = value;
         }
     }
 }
