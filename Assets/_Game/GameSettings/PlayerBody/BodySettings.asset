@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 527d5e9fb685497d87cbf81bb8ffd1b6, type: 3}
+  m_Name: BodySettings
+  m_EditorClassIdentifier: 
+  bodyData:
+  - name: Hair
+    BodyPart: 0
+    BodyPartSettings:
+    - {fileID: 11400000, guid: 97e34cb2502425c43832cfb523895311, type: 2}
+    - {fileID: 11400000, guid: 8437a2d522ca9e24ab8ea7cf29c73c82, type: 2}
+    - {fileID: 11400000, guid: 3342d5929671aa24d80fe4972a14cf60, type: 2}
+    - {fileID: 11400000, guid: 6379cd79ed7a6d142add521fc33496a5, type: 2}
+    - {fileID: 11400000, guid: b7780f50dcf981a4eb120ae1eba9766a, type: 2}
+    - {fileID: 11400000, guid: d865e9c2823b18a419e9ffc4d43bbbab, type: 2}
+    - {fileID: 11400000, guid: 622b5ded176d34941b4b6bb32205e3f8, type: 2}
+    - {fileID: 11400000, guid: 322da0889e0ec684b91d81bb9760ec85, type: 2}
+    - {fileID: 11400000, guid: 6b089e4413d57de44a4516945cc54c15, type: 2}
+    - {fileID: 11400000, guid: ee160c8471bb56f419680df13c9426b1, type: 2}
+    - {fileID: 11400000, guid: cea3fe19701761941a1800dc59a1d71e, type: 2}
+    - {fileID: 11400000, guid: 411d55e0c69a22b4c947ffddef6d35a6, type: 2}
+  - name: Cloth
+    BodyPart: 1
+    BodyPartSettings:
+    - {fileID: 11400000, guid: 5516886927297c74fa90d32904f91269, type: 2}
+    - {fileID: 11400000, guid: 0f5f3a9b631ea894fa161f7cb58baf2a, type: 2}
+    - {fileID: 11400000, guid: 591ae9971d6344547bcd6705f5fc0492, type: 2}
+    - {fileID: 11400000, guid: ccf447b2315f21b4ab74305d0d31516b, type: 2}
+    - {fileID: 11400000, guid: 64a0a7a2c7e035049a05e7dadea4987a, type: 2}
+    - {fileID: 11400000, guid: ce3e78a217c19794fb755dfc717af150, type: 2}
+    - {fileID: 11400000, guid: bb0983422bd68bf498337d7bcc11703c, type: 2}
+    - {fileID: 11400000, guid: 22e13fc5f089d7f4aade5e3b1da2b963, type: 2}
+    - {fileID: 11400000, guid: 1ed2aa9e66a7475488c18088c43a33b5, type: 2}
+    - {fileID: 11400000, guid: 3e357d585b134da4092e0010e5e1efae, type: 2}
+    - {fileID: 11400000, guid: 09c3b340120900f45b50d5e91b331445, type: 2}
+    - {fileID: 11400000, guid: 22f0345698c187b4096b05e70e254066, type: 2}
+  - name: Pants
+    BodyPart: 2
+    BodyPartSettings:
+    - {fileID: 11400000, guid: 55d9250456fa2bb4c88d27d79f79db92, type: 2}
+    - {fileID: 11400000, guid: 4551901ea76031649bf04a0a8418feff, type: 2}
+    - {fileID: 11400000, guid: f7f52395a900126498820da4dcdde44f, type: 2}
+    - {fileID: 11400000, guid: c0fdbc809886ecd4bb05a28a22be3acd, type: 2}
+    - {fileID: 11400000, guid: 1943fd02f74632247a2af06c5dc2c4d6, type: 2}
+    - {fileID: 11400000, guid: 1efd6b1ccd3d79644b644b1c0dadad0d, type: 2}
+    - {fileID: 11400000, guid: 1da23d56a410a8146976dd57a11e6c8a, type: 2}
+    - {fileID: 11400000, guid: f6f672baea7c5c84a99448b1934b7424, type: 2}
+    - {fileID: 11400000, guid: 2e1d840d5018b024b9aea1bc20b07db8, type: 2}
+    - {fileID: 11400000, guid: 31553b4d3c08a4341a570947b05587c8, type: 2}
+    - {fileID: 11400000, guid: 775b34309ce3abb4cabb04bacc5885f5, type: 2}
+    - {fileID: 11400000, guid: d120061eac9303b4ea576bb54d323a8f, type: 2}
